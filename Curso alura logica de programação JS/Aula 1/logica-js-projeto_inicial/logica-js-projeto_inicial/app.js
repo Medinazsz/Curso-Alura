@@ -4,7 +4,7 @@ let nome = "Lua";
 
 let idade = 25;
 
-let numeroDeVendas = 'sexo anal';
+let numeroDeVendas = 50;
 
 alert('Erro! Preencha todos os campos');
 
