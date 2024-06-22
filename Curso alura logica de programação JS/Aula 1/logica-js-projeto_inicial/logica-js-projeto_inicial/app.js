@@ -1,18 +1,11 @@
-alert('Boas vindas ao nosso site!');
+alert("Boas vindas ao jogo do número secreto");
+let numeroSecreto = 2;
+let chute = prompt("Escolha um número entre 1 e 10");
+console.log(numeroSecreto);
 
-let nome = "Lua";
-
-let idade = 25;
-
-let numeroDeVendas = 50;
-
-alert('Erro! Preencha todos os campos');
-
-let name = prompt('Qual é o seu nome?');
-
-let age = prompt('Qual é sua idade?');
-if (age >= 18) {
-    alert('Pode tirar habilitação.');
+// se chute for igual ao número secreto
+if (chute == numeroSecreto) {
+  alert(`Isso ai! você acertou o número secreto ${numeroSecreto}`);
+} else {
+  alert("Você errou :(");
 }
-
-console.log(numeroDeVendas);
